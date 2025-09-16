@@ -1,0 +1,1 @@
+//Faça uma função que receba 3 notas e retorne a média do aluno
