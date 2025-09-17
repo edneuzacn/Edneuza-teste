@@ -1,0 +1,8 @@
+//Verifique se uma palavra é um palindromo(lida igual de traz para frente(ex. arara, radar)
+let palavra = "arara";
+let ehPalindromo = true;
+for (let i = 0; i < palavra.length / 2; i++) {
+    if (palavra[i] !== palavra[palavra.length - 1 - i]) {
+        ehPalindromo = false;
+        break;
+    }
